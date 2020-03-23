@@ -158,20 +158,32 @@ header {
   height: 23px;
 }
 
-.brand-links img:nth-of-type(odd) {
+.brand-links a {
   height: 23px;
-  margin-right: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.brand-links a:nth-of-type(odd) {
+  margin-right: 4px
+}
+
+.brand-links a:nth-of-type(-2n+4) {
+  margin-right: 9px;
+}
+
+.logo {
+  height: 23px;
 }
 
 .mint-text {
   height: 14px;
-  margin-right: 9px;
   margin-bottom: 3px;
 }
 
 .quickbooks-text {
   height: 21px;
-  margin-right: 9px;
 }
 
 .turbotax-text {
