@@ -206,6 +206,14 @@ fieldset > * {
   text-align: center;
 }
 
+.sign-in-text {
+  display: none;
+}
+
+.sign-in-text * {
+  display: inline;
+}
+
 label {
   text-align: left;
   color: #404040;
@@ -299,11 +307,27 @@ footer li {
   padding: 3px 6px;
 }
 
-footer a:hover {
-  color: rgb(76, 76, 76);
+footer a.footer-link {
+  color: #505050;
+}
+
+footer a.footer-link:hover {
   text-decoration: underline;
 }
 
 footer p {
   padding: 3px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+
+  .top-bar {
+    display: none;
+  }
+
+  .sign-in-text {
+    display: block;
+  }
+
 }
