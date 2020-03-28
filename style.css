@@ -195,7 +195,7 @@ fieldset {
   position: relative;
   background-color: #fff;
   padding: 30px;
-  width: 380px;
+  max-width: 380px;
   border: 1px solid #c7c7c7;
   border-bottom: none;
   border-radius: 2px 2px 0 0;
